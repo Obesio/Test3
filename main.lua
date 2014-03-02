@@ -87,7 +87,7 @@ function love.keypressed(key)
 		table.sort(highscores, function(a, b) return a > b end)
 		gameState = menu
 		selection = 1
-		char = {75, 125}
+		char = {char.image, 75, 125}
 		inv = {}
 		defstime = 1
 		stime = 1
